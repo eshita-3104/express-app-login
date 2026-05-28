@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // test endpoint
 app.get('/hello',(req,res)=>{
-    res.send('Hello Jenkins!!!!');
+    res.send('Hello, from new jenkins build!!!!');
 });
 
 // /login endpoint - description in README.md
